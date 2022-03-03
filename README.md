@@ -2,7 +2,6 @@
 
 Overview of services:
 
-- [Azure Data Engineer Preparation](#azure-data-engineer-preparation)
   - [Structure vs unstructured data](#structure-vs-unstructured-data)
   - [Data Storage in Azure](#data-storage-in-azure)
   - [Data Lake in Azure](#data-lake-in-azure)
