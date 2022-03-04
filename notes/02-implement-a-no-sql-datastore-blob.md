@@ -211,19 +211,35 @@ Session is always default. This can be overriden at request level to a less cons
 
 ```bash 
 az cosmos create --name 
-                --resource-group
-                [--capabilities]
-                [--default-consistency-level {BoundedStaleness, ConsistenPrefix, Eventual,Session, Strong}] 
-                [--enable-automatic-failover {false, true}] 
-                [--enable-multiple-write-locations {false, true}] 
-                [--enable-virtual-network {false, true}] 
-                [--ip-range-filter] 
-                [--kind {GlobalDocumentDB, MongoDB, Parse}] 
-                [--locations] 
-                [--max-interval]
-                [--max-staleness-prefix]
-                [--subscription]
-                [--tags]
-                [--virtual-network-rules] 
+                  --resource-group
+                  [--capabilities]
+                  [--default-consistency-level {BoundedStaleness, ConsistenPrefix, Eventual,Session, Strong}] 
+                  [--enable-automatic-failover {false, true}] 
+                  [--enable-multiple-write-locations {false, true}] 
+                  [--enable-virtual-network {false, true}] 
+                  [--ip-range-filter] 
+                  [--kind {GlobalDocumentDB, MongoDB, Parse}] 
+                  [--locations] 
+                  [--max-interval]
+                  [--max-staleness-prefix]
+                  [--subscription]
+                  [--tags]
+                  [--virtual-network-rules] 
 ```
 
+**Important points**:
+- Take a look on the available APIs to interact with the new database, e.g. Gremlin in case of Graph DBs.
+- See whether the consistency level allows to change to a weaker level
+- Remember that the changing the consistency level in bounded to a default consistency level at the time of creation
+
+## Pricing 
+
+Scale:
+  - Manual: set a max. worload (RU/s)
+  - Throughput: Azure set dynamically that value automatically
+
+Regions:
+  - The numbers of regions multiply directly the costs of the actual throughput, i.e. (N x throughout costs) with N > 1
+
+Plans:
+  - Long term plans, i.e. longer than one year, are marked as reserved capacity. This saves costs (up to 65%)

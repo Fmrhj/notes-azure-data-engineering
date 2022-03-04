@@ -1,6 +1,7 @@
-# Azure Data Engineer Preparation
+# Azure Data Engineer Exam Preparation
+![https://docs.microsoft.com/en-us/learn/certifications/exams/dp-203](https://img.shields.io/static/v1?label=azure-exam&message=dp203&color=informational)![https://docs.microsoft.com/en-us/cli/azure/install-azure-cli](https://img.shields.io/static/v1?logo=MicrosoftAzure&logoColor=%0078D4&label=cli-version&message=2.34.1&color=#0078D4)![](https://img.shields.io/static/v1?label=last-update&message=03.03.22&color=lightgrey)
 
-Overview of services:
+## Overview of services
 
   - [Structure vs unstructured data](#structure-vs-unstructured-data)
   - [Data Storage in Azure](#data-storage-in-azure)
