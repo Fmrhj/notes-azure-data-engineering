@@ -1,7 +1,7 @@
 # Azure Data Engineer Exam Preparation
-[![DP203-Badge](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-203)](https://img.shields.io/static/v1?label=azure-exam&message=dp203&color=informational) 
-[![AzureCli-Badge](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)](https://img.shields.io/static/v1?logo=MicrosoftAzure&logoColor=%0078D4&label=cli-version&message=2.34.1&color=#0078D4) 
-[![Date-Badge()]](https://img.shields.io/static/v1?label=last-update&message=03.03.22&color=lightgrey)
+![[DP203-Badge](https://docs.microsoft.com/en-us/learn/certifications/exams/dp-203)](https://img.shields.io/static/v1?label=azure-exam&message=dp203&color=informational) 
+![[AzureCli-Badge](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)](https://img.shields.io/static/v1?logo=MicrosoftAzure&logoColor=%0078D4&label=cli-version&message=2.34.1&color=#0078D4) 
+![[Date-Badge()]](https://img.shields.io/static/v1?label=last-update&message=03.03.22&color=lightgrey)
 
 ## Overview of services
 
