@@ -112,3 +112,4 @@
 - You are responsible of replication and sync
 
 > Acquire lease: no one else can change the file
+

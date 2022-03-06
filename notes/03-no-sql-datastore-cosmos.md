@@ -243,3 +243,18 @@ Regions:
 
 Plans:
   - Long term plans, i.e. longer than one year, are marked as reserved capacity. This saves costs (up to 65%)
+
+## Security
+
+- Role based access control (RBAC)
+  - Basically most of the IAM configuration and the privileges that can be appended to a certain role and these to users
+- Network Security
+  - Virtual networks and firewall rules
+- Access Security Keys
+  - Keys to use to grant access via SDKS and APIs
+- CORS (Cross-Origin Resource Sharing)
+  - Whitelisting domain names
+- Azure Private Endpoint
+  - How virtual networks can be exposed
+- Advance Security Option
+  - Send alerts in case something unsual happens
