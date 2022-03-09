@@ -81,7 +81,7 @@ These two concepts must be adjusted since one affect the other.
 | Outage scenario                                                                            | LRS                | ZRS                | GRS/RA-GRS                       | GZRS/RA-GZRS                      |
 |--------------------------------------------------------------------------------------------|--------------------|--------------------|----------------------------------|-----------------------------------|
 | A node within a data center becomes unavailable                                            | :white_check_mark: | :white_check_mark: | :white_check_mark:               | :white_check_mark:                |
-| An entire data center (zonal or non-zonal) becomes unavailable                             | :x:                | :x:                | :white_check_mark:               | :white_check_mark:                |
+| An entire data center (zonal or non-zonal) becomes unavailable                             | :x:                | :white_check_mark: | :white_check_mark:               | :white_check_mark:                |
 | A region-wide outage occurs in the primary region                                          | :x:                | :x:                | :white_check_mark:               | :white_check_mark:                |
 | Read access to the secondary region is available if the primary region becomes unavailable | :x:                | :x:                | :white_check_mark: (with RA-GRS) | :white_check_mark: (with RA-GZRS) |
 *source: [storage redundancy](https://docs.microsoft.com/en-us/azure/storage/common/storage-redundancy)*
